@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5177B29A2B1FA9E700BAEE32 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5177B2992B1FA9E700BAEE32 /* main.cpp */; };
+		5177B2C42B1FB0E700BAEE32 /* libclntsh.dylib.19.1 in Frameworks */ = {isa = PBXBuildFile; fileRef = 5177B2C32B1FB0E700BAEE32 /* libclntsh.dylib.19.1 */; };
+		5177B2C62B1FB17900BAEE32 /* libocci.dylib.19.1 in Frameworks */ = {isa = PBXBuildFile; fileRef = 5177B2C52B1FB17900BAEE32 /* libocci.dylib.19.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5177B2942B1FA9E700BAEE32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5177B2962B1FA9E700BAEE32 /* DSB311_A2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = DSB311_A2; path = "/Users/aydinghorbani/Desktop/DBS 311/A2/DSB311_A2/build/Debug/DSB311_A2"; sourceTree = "<absolute>"; };
+		5177B2992B1FA9E700BAEE32 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5177B2C32B1FB0E700BAEE32 /* libclntsh.dylib.19.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = libclntsh.dylib.19.1; path = "../../../../Downloads/instantclient_19_8 2/libclntsh.dylib.19.1"; sourceTree = "<group>"; };
+		5177B2C52B1FB17900BAEE32 /* libocci.dylib.19.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = libocci.dylib.19.1; path = "../../../../Downloads/instantclient_19_8 2/libocci.dylib.19.1"; sourceTree = "<group>"; };
+		5177B2C82B1FB5BC00BAEE32 /* libociei.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libociei.dylib; sourceTree = "<group>"; };
+		5177B2C92B1FB5BC00BAEE32 /* libocci.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libocci.dylib; sourceTree = "<group>"; };
+		5177B2CA2B1FB5BC00BAEE32 /* libocci.dylib.10.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libocci.dylib.10.1; sourceTree = "<group>"; };
+		5177B2CB2B1FB5BC00BAEE32 /* adrci */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = adrci; sourceTree = "<group>"; };
+		5177B2CC2B1FB5BC00BAEE32 /* uidrvci */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = uidrvci; sourceTree = "<group>"; };
+		5177B2CD2B1FB5BC00BAEE32 /* libclntsh.dylib.19.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libclntsh.dylib.19.1; sourceTree = "<group>"; };
+		5177B2CE2B1FB5BC00BAEE32 /* ojdbc8.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = ojdbc8.jar; sourceTree = "<group>"; };
+		5177B2CF2B1FB5BC00BAEE32 /* BASIC_README */ = {isa = PBXFileReference; lastKnownFileType = text; path = BASIC_README; sourceTree = "<group>"; };
+		5177B2D02B1FB5BC00BAEE32 /* liboramysql19.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = liboramysql19.dylib; sourceTree = "<group>"; };
+		5177B2D12B1FB5BC00BAEE32 /* libocijdbc19.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = libocijdbc19.dylib; sourceTree = "<group>"; };
+		5177B2D22B1FB5BC00BAEE32 /* libocci.dylib.19.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libocci.dylib.19.1; sourceTree = "<group>"; };
+		5177B2D32B1FB5BC00BAEE32 /* libclntsh.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libclntsh.dylib; sourceTree = "<group>"; };
+		5177B2D62B1FB5BC00BAEE32 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5177B2D72B1FB5BC00BAEE32 /* xstreams.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = xstreams.jar; sourceTree = "<group>"; };
+		5177B2D82B1FB5BC00BAEE32 /* libclntsh.dylib.10.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libclntsh.dylib.10.1; sourceTree = "<group>"; };
+		5177B2D92B1FB5BC00BAEE32 /* libnnz19.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnnz19.dylib; sourceTree = "<group>"; };
+		5177B2DA2B1FB5BC00BAEE32 /* libclntshcore.dylib.19.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libclntshcore.dylib.19.1; sourceTree = "<group>"; };
+		5177B2DB2B1FB5BC00BAEE32 /* libocci.dylib.12.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libocci.dylib.12.1; sourceTree = "<group>"; };
+		5177B2DC2B1FB5BC00BAEE32 /* libocci.dylib.18.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libocci.dylib.18.1; sourceTree = "<group>"; };
+		5177B2DD2B1FB5BC00BAEE32 /* libclntsh.dylib.11.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libclntsh.dylib.11.1; sourceTree = "<group>"; };
+		5177B2DE2B1FB5BC00BAEE32 /* BASIC_LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = BASIC_LICENSE; sourceTree = "<group>"; };
+		5177B2DF2B1FB5BC00BAEE32 /* libocci.dylib.11.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libocci.dylib.11.1; sourceTree = "<group>"; };
+		5177B2E02B1FB5BC00BAEE32 /* libclntsh.dylib.12.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libclntsh.dylib.12.1; sourceTree = "<group>"; };
+		5177B2E12B1FB5BC00BAEE32 /* libclntsh.dylib.18.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libclntsh.dylib.18.1; sourceTree = "<group>"; };
+		5177B2E22B1FB5BC00BAEE32 /* ucp.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = ucp.jar; sourceTree = "<group>"; };
+		5177B2E32B1FB5BC00BAEE32 /* genezi */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = genezi; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5177B2932B1FA9E700BAEE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5177B2C62B1FB17900BAEE32 /* libocci.dylib.19.1 in Frameworks */,
+				5177B2C42B1FB0E700BAEE32 /* libclntsh.dylib.19.1 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5177B28D2B1FA9E600BAEE32 = {
+			isa = PBXGroup;
+			children = (
+				5177B2982B1FA9E700BAEE32 /* DSB311_A2 */,
+				5177B2C22B1FB0E700BAEE32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5177B2982B1FA9E700BAEE32 /* DSB311_A2 */ = {
+			isa = PBXGroup;
+			children = (
+				5177B2992B1FA9E700BAEE32 /* main.cpp */,
+			);
+			path = DSB311_A2;
+			sourceTree = "<group>";
+		};
+		5177B2C22B1FB0E700BAEE32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5177B2C72B1FB5BC00BAEE32 /* instantclient_19_8 2 */,
+				5177B2C52B1FB17900BAEE32 /* libocci.dylib.19.1 */,
+				5177B2C32B1FB0E700BAEE32 /* libclntsh.dylib.19.1 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5177B2C72B1FB5BC00BAEE32 /* instantclient_19_8 2 */ = {
+			isa = PBXGroup;
+			children = (
+				5177B2C82B1FB5BC00BAEE32 /* libociei.dylib */,
+				5177B2C92B1FB5BC00BAEE32 /* libocci.dylib */,
+				5177B2CA2B1FB5BC00BAEE32 /* libocci.dylib.10.1 */,
+				5177B2CB2B1FB5BC00BAEE32 /* adrci */,
+				5177B2CC2B1FB5BC00BAEE32 /* uidrvci */,
+				5177B2CD2B1FB5BC00BAEE32 /* libclntsh.dylib.19.1 */,
+				5177B2CE2B1FB5BC00BAEE32 /* ojdbc8.jar */,
+				5177B2CF2B1FB5BC00BAEE32 /* BASIC_README */,
+				5177B2D02B1FB5BC00BAEE32 /* liboramysql19.dylib */,
+				5177B2D12B1FB5BC00BAEE32 /* libocijdbc19.dylib */,
+				5177B2D22B1FB5BC00BAEE32 /* libocci.dylib.19.1 */,
+				5177B2D32B1FB5BC00BAEE32 /* libclntsh.dylib */,
+				5177B2D42B1FB5BC00BAEE32 /* network */,
+				5177B2D72B1FB5BC00BAEE32 /* xstreams.jar */,
+				5177B2D82B1FB5BC00BAEE32 /* libclntsh.dylib.10.1 */,
+				5177B2D92B1FB5BC00BAEE32 /* libnnz19.dylib */,
+				5177B2DA2B1FB5BC00BAEE32 /* libclntshcore.dylib.19.1 */,
+				5177B2DB2B1FB5BC00BAEE32 /* libocci.dylib.12.1 */,
+				5177B2DC2B1FB5BC00BAEE32 /* libocci.dylib.18.1 */,
+				5177B2DD2B1FB5BC00BAEE32 /* libclntsh.dylib.11.1 */,
+				5177B2DE2B1FB5BC00BAEE32 /* BASIC_LICENSE */,
+				5177B2DF2B1FB5BC00BAEE32 /* libocci.dylib.11.1 */,
+				5177B2E02B1FB5BC00BAEE32 /* libclntsh.dylib.12.1 */,
+				5177B2E12B1FB5BC00BAEE32 /* libclntsh.dylib.18.1 */,
+				5177B2E22B1FB5BC00BAEE32 /* ucp.jar */,
+				5177B2E32B1FB5BC00BAEE32 /* genezi */,
+			);
+			name = "instantclient_19_8 2";
+			path = "../../../../Downloads/instantclient_19_8 2";
+			sourceTree = "<group>";
+		};
+		5177B2D42B1FB5BC00BAEE32 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				5177B2D52B1FB5BC00BAEE32 /* admin */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		5177B2D52B1FB5BC00BAEE32 /* admin */ = {
+			isa = PBXGroup;
+			children = (
+				5177B2D62B1FB5BC00BAEE32 /* README */,
+			);
+			path = admin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5177B2952B1FA9E700BAEE32 /* DSB311_A2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5177B29D2B1FA9E700BAEE32 /* Build configuration list for PBXNativeTarget "DSB311_A2" */;
+			buildPhases = (
+				5177B2922B1FA9E700BAEE32 /* Sources */,
+				5177B2932B1FA9E700BAEE32 /* Frameworks */,
+				5177B2942B1FA9E700BAEE32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSB311_A2;
+			productName = DSB311_A2;
+			productReference = 5177B2962B1FA9E700BAEE32 /* DSB311_A2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5177B28E2B1FA9E600BAEE32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5177B2952B1FA9E700BAEE32 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 5177B2912B1FA9E600BAEE32 /* Build configuration list for PBXProject "DSB311_A2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5177B28D2B1FA9E600BAEE32;
+			productRefGroup = 5177B28D2B1FA9E600BAEE32;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5177B2952B1FA9E700BAEE32 /* DSB311_A2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5177B2922B1FA9E700BAEE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5177B29A2B1FA9E700BAEE32 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5177B29B2B1FA9E700BAEE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/aydinghorbani/Downloads/instantclient_19_16/sdk/include;
+				LIBRARY_SEARCH_PATHS = /Users/aydinghorbani/Downloads/instantclient_19_16;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5177B29C2B1FA9E700BAEE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"#include <iostream>\"",
+					"\"#include </Users/aydinghorbani/Downloads/instantclient_19_16/sdk/include/occi.h>\"",
+					"\"using oracle::occi::Environment;\"",
+					"\"using oracle::occi::Connection;\"",
+					"\"using namespace oracle::occi;\"",
+					"\"using namespace std;\"",
+					"\"struct ShoppingCart\"",
+					"{",
+					"\"    int product_id{0};\"",
+					"\"    double price{0};\"",
+					"\"    int quantity{0};\"",
+					"};",
+					"\"const int MAX_CART_SIZE = 5; // the max number of items in one customer order\"",
+					"\"int mainMenu();\"",
+					"\"int customerLogin(Connection *conn, int customerId);\"",
+					"\"int addToCart(Connection *conn, struct ShoppingCart cart[]);\"",
+					"\"double findProduct(Connection *conn, int product_id);\"",
+					"\"void displayProducts(struct ShoppingCart cart[], int productCount);\"",
+					"\"int checkout(Connection *conn, struct ShoppingCart cart[], int customerId, int productCount);\"",
+					"\"void displayOrderStatus(Connection *conn, int orderId, int customerId);\"",
+					"\"void cancelOrder(Connection *conn, int orderId, int customerId);\"",
+					"\"int main()\"",
+					"{",
+					"\"    // OCCI Variables\"",
+					"\"    Environment *env = nullptr;\"",
+					"\"    Connection *conn = nullptr;\"",
+					"\"    // Used Variables\"",
+					"\"    string str;\"",
+					"\"    string user = \\\"[insert username here]\\\";\"",
+					"\"    string pass = \\\"[insert password here]\\\";\"",
+					"\"    string constr = \\\"myoracle12c.senecacollege.ca:1521/oracle12c\\\";\"",
+					"\"    try\"",
+					"\"    {\"",
+					"\"        env = Environment::createEnvironment(Environment::DEFAULT);\"",
+					"\"        conn = env->createConnection(user, pass, constr);\"",
+					"\"        cout << \\\"Connection is Successful!\\\" << endl;\"",
+					"\"        int customerId = 0;\"",
+					"\"        int mainChoice = 0;\"",
+					"\"        ShoppingCart cart[MAX_CART_SIZE];\"",
+					"\"        int productCount = 0;\"",
+					"\"        do\"",
+					"\"        {\"",
+					"\"            mainChoice = mainMenu();\"",
+					"\"            switch (mainChoice)\"",
+					"\"            {\"",
+					"\"            case 1:\"",
+					"\"                customerId = customerLogin(conn, customerId);\"",
+					"\"                break;\"",
+					"\"            case 2:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    productCount = addToCart(conn, cart);\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 3:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else if (productCount == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Your cart is empty.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    displayProducts(cart, productCount);\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 4:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else if (productCount == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Your cart is empty.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    int orderStatus = checkout(conn, cart, customerId, productCount);\"",
+					"\"                    if (orderStatus == 1)\"",
+					"\"                    {\"",
+					"\"                        cout << \\\"Order placed successfully!\\\" << endl;\"",
+					"\"                        productCount = 0; // reset cart after successful checkout\"",
+					"\"                    }\"",
+					"\"                    else\"",
+					"\"                    {\"",
+					"\"                        cout << \\\"Error placing order. Please try again.\\\" << endl;\"",
+					"\"                    }\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 5:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    int orderId;\"",
+					"\"                    cout << \\\"Enter order ID: \\\";\"",
+					"\"                    cin >> orderId;\"",
+					"\"                    displayOrderStatus(conn, orderId, customerId);\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 6:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    int orderId;\"",
+					"\"                    cout << \\\"Enter order ID to cancel: \\\";\"",
+					"\"                    cin >> orderId;\"",
+					"\"                    cancelOrder(conn, orderId, customerId);\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 7:\"",
+					"\"                cout << \\\"Goodbye!\\\" << endl;\"",
+					"\"                break;\"",
+					"\"            default:\"",
+					"\"                cout << \\\"Invalid choice. Please try again.\\\" << endl;\"",
+					"\"                break;\"",
+					"\"            }\"",
+					"\"        } while (mainChoice != 7);\"",
+					"\"        env->terminateConnection(conn);\"",
+					"\"        Environment::terminateEnvironment(env);\"",
+					"\"    }\"",
+					"\"    catch (SQLException &sqlExcp)\"",
+					"\"    {\"",
+					"\"        cout << sqlExcp.getErrorCode() << \\\": \\\" << sqlExcp.getMessage();\"",
+					"\"    }\"",
+					"\"    return 0;\"",
+					"}",
+					"\"// Other functions remain unchanged\"",
+					"\"void displayOrderStatus(Connection *conn, int orderId, int customerId)\"",
+					"{",
+					"\"    int orderStatus = 0;\"",
+					"\"    Statement *stmt = conn->createStatement();\"",
+					"\"    // call the display_order_status stored procedure\"",
+					"\"    stmt->setSQL(\\\"BEGIN\\\"\"",
+					"\"                 \\\" display_order_status(:1, :2);\\\"\"",
+					"\"                 \\\" END;\\\");\"",
+					"\"    stmt->setNumber(1, orderId);\"",
+					"\"    stmt->registerOutParam(2, Type::OCCIINT, sizeof(orderStatus));\"",
+					"\"    stmt->executeUpdate();\"",
+					"\"    // store the out parameter into orderStatus\"",
+					"\"    orderStatus = stmt->getInt(2);\"",
+					"\"    conn->terminateStatement(stmt);\"",
+					"\"    if (orderStatus == 0)\"",
+					"\"    {\"",
+					"\"        cout << \\\"Order does not exist.\\\" << endl;\"",
+					"\"    }\"",
+					"\"    else\"",
+					"\"    {\"",
+					"\"        cout << \\\"Order is shipped.\\\" << endl;\"",
+					"\"    }\"",
+					"}",
+					"\"void cancelOrder(Connection *conn, int orderId, int customerId)\"",
+					"{",
+					"\"    int cancel = 0;\"",
+					"\"    Statement *stmt = conn->createStatement();\"",
+					"\"    // call the cancel_order stored procedure\"",
+					"\"    stmt->setSQL(\\\"BEGIN\\\"\"",
+					"\"                 \\\" cancel_order(:1, :2);\\\"\"",
+					"\"                 \\\" END;\\\");\"",
+					"\"    stmt->setNumber(1, orderId);\"",
+					"\"    stmt->registerOutParam(2, Type::OCCIINT, sizeof(cancel));\"",
+					"\"    stmt->executeUpdate();\"",
+					"\"    // store the out parameter into cancel\"",
+					"\"    cancel = stmt->getInt(2);\"",
+					"\"    conn->terminateStatement(stmt);\"",
+					"\"    if (cancel == 1)\"",
+					"\"    {\"",
+					"\"        cout << \\\"Order is canceled.\\\" << endl;\"",
+					"\"    }\"",
+					"\"    else\"",
+					"\"    {\"",
+					"\"        cout << \\\"Order does not exist.\\\" << endl;\"",
+					"\"    }\"",
+					"}",
+					"\"#include <iostream>\"",
+					"\"#include </Users/aydinghorbani/Downloads/instantclient_19_16/sdk/include/occi.h>\"",
+					"\"using oracle::occi::Environment;\"",
+					"\"using oracle::occi::Connection;\"",
+					"\"using namespace oracle::occi;\"",
+					"\"using namespace std;\"",
+					"\"struct ShoppingCart\"",
+					"{",
+					"\"    int product_id{0};\"",
+					"\"    double price{0};\"",
+					"\"    int quantity{0};\"",
+					"};",
+					"\"const int MAX_CART_SIZE = 5; // the max number of items in one customer order\"",
+					"\"int mainMenu();\"",
+					"\"int customerLogin(Connection *conn, int customerId);\"",
+					"\"int addToCart(Connection *conn, struct ShoppingCart cart[]);\"",
+					"\"double findProduct(Connection *conn, int product_id);\"",
+					"\"void displayProducts(struct ShoppingCart cart[], int productCount);\"",
+					"\"int checkout(Connection *conn, struct ShoppingCart cart[], int customerId, int productCount);\"",
+					"\"void displayOrderStatus(Connection *conn, int orderId, int customerId);\"",
+					"\"void cancelOrder(Connection *conn, int orderId, int customerId);\"",
+					"\"int main()\"",
+					"{",
+					"\"    // OCCI Variables\"",
+					"\"    Environment *env = nullptr;\"",
+					"\"    Connection *conn = nullptr;\"",
+					"\"    // Used Variables\"",
+					"\"    string str;\"",
+					"\"    string user = \\\"[insert username here]\\\";\"",
+					"\"    string pass = \\\"[insert password here]\\\";\"",
+					"\"    string constr = \\\"myoracle12c.senecacollege.ca:1521/oracle12c\\\";\"",
+					"\"    try\"",
+					"\"    {\"",
+					"\"        env = Environment::createEnvironment(Environment::DEFAULT);\"",
+					"\"        conn = env->createConnection(user, pass, constr);\"",
+					"\"        cout << \\\"Connection is Successful!\\\" << endl;\"",
+					"\"        int customerId = 0;\"",
+					"\"        int mainChoice = 0;\"",
+					"\"        ShoppingCart cart[MAX_CART_SIZE];\"",
+					"\"        int productCount = 0;\"",
+					"\"        do\"",
+					"\"        {\"",
+					"\"            mainChoice = mainMenu();\"",
+					"\"            switch (mainChoice)\"",
+					"\"            {\"",
+					"\"            case 1:\"",
+					"\"                customerId = customerLogin(conn, customerId);\"",
+					"\"                break;\"",
+					"\"            case 2:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    productCount = addToCart(conn, cart);\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 3:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else if (productCount == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Your cart is empty.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    displayProducts(cart, productCount);\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 4:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else if (productCount == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Your cart is empty.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    int orderStatus = checkout(conn, cart, customerId, productCount);\"",
+					"\"                    if (orderStatus == 1)\"",
+					"\"                    {\"",
+					"\"                        cout << \\\"Order placed successfully!\\\" << endl;\"",
+					"\"                        productCount = 0; // reset cart after successful checkout\"",
+					"\"                    }\"",
+					"\"                    else\"",
+					"\"                    {\"",
+					"\"                        cout << \\\"Error placing order. Please try again.\\\" << endl;\"",
+					"\"                    }\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 5:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    int orderId;\"",
+					"\"                    cout << \\\"Enter order ID: \\\";\"",
+					"\"                    cin >> orderId;\"",
+					"\"                    displayOrderStatus(conn, orderId, customerId);\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 6:\"",
+					"\"                if (customerId == 0)\"",
+					"\"                {\"",
+					"\"                    cout << \\\"Please log in first.\\\" << endl;\"",
+					"\"                }\"",
+					"\"                else\"",
+					"\"                {\"",
+					"\"                    int orderId;\"",
+					"\"                    cout << \\\"Enter order ID to cancel: \\\";\"",
+					"\"                    cin >> orderId;\"",
+					"\"                    cancelOrder(conn, orderId, customerId);\"",
+					"\"                }\"",
+					"\"                break;\"",
+					"\"            case 7:\"",
+					"\"                cout << \\\"Goodbye!\\\" << endl;\"",
+					"\"                break;\"",
+					"\"            default:\"",
+					"\"                cout << \\\"Invalid choice. Please try again.\\\" << endl;\"",
+					"\"                break;\"",
+					"\"            }\"",
+					"\"        } while (mainChoice != 7);\"",
+					"\"        env->terminateConnection(conn);\"",
+					"\"        Environment::terminateEnvironment(env);\"",
+					"\"    }\"",
+					"\"    catch (SQLException &sqlExcp)\"",
+					"\"    {\"",
+					"\"        cout << sqlExcp.getErrorCode() << \\\": \\\" << sqlExcp.getMessage();\"",
+					"\"    }\"",
+					"\"    return 0;\"",
+					"}",
+					"\"// Other functions remain unchanged\"",
+					"\"void displayOrderStatus(Connection *conn, int orderId, int customerId)\"",
+					"{",
+					"\"    int orderStatus = 0;\"",
+					"\"    Statement *stmt = conn->createStatement();\"",
+					"\"    // call the display_order_status stored procedure\"",
+					"\"    stmt->setSQL(\\\"BEGIN\\\"\"",
+					"\"                 \\\" display_order_status(:1, :2);\\\"\"",
+					"\"                 \\\" END;\\\");\"",
+					"\"    stmt->setNumber(1, orderId);\"",
+					"\"    stmt->registerOutParam(2, Type::OCCIINT, sizeof(orderStatus));\"",
+					"\"    stmt->executeUpdate();\"",
+					"\"    // store the out parameter into orderStatus\"",
+					"\"    orderStatus = stmt->getInt(2);\"",
+					"\"    conn->terminateStatement(stmt);\"",
+					"\"    if (orderStatus == 0)\"",
+					"\"    {\"",
+					"\"        cout << \\\"Order does not exist.\\\" << endl;\"",
+					"\"    }\"",
+					"\"    else\"",
+					"\"    {\"",
+					"\"        cout << \\\"Order is shipped.\\\" << endl;\"",
+					"\"    }\"",
+					"}",
+					"\"void cancelOrder(Connection *conn, int orderId, int customerId)\"",
+					"{",
+					"\"    int cancel = 0;\"",
+					"\"    Statement *stmt = conn->createStatement();\"",
+					"\"    // call the cancel_order stored procedure\"",
+					"\"    stmt->setSQL(\\\"BEGIN\\\"\"",
+					"\"                 \\\" cancel_order(:1, :2);\\\"\"",
+					"\"                 \\\" END;\\\");\"",
+					"\"    stmt->setNumber(1, orderId);\"",
+					"\"    stmt->registerOutParam(2, Type::OCCIINT, sizeof(cancel));\"",
+					"\"    stmt->executeUpdate();\"",
+					"\"    // store the out parameter into cancel\"",
+					"\"    cancel = stmt->getInt(2);\"",
+					"\"    conn->terminateStatement(stmt);\"",
+					"\"    if (cancel == 1)\"",
+					"\"    {\"",
+					"\"        cout << \\\"Order is canceled.\\\" << endl;\"",
+					"\"    }\"",
+					"\"    else\"",
+					"\"    {\"",
+					"\"        cout << \\\"Order does not exist.\\\" << endl;\"",
+					"\"    }\"",
+					"}",
+					/Users/aydinghorbani/Downloads/instantclient_19_16/sdk/include/occi.h,
+				);
+				LIBRARY_SEARCH_PATHS = /User/$USER/Downloads/instantclient_19_16;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/aydinghorbani/Downloads/instantclient_19_16;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5177B29E2B1FA9E700BAEE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5177B29F2B1FA9E700BAEE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5177B2912B1FA9E600BAEE32 /* Build configuration list for PBXProject "DSB311_A2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5177B29B2B1FA9E700BAEE32 /* Debug */,
+				5177B29C2B1FA9E700BAEE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5177B29D2B1FA9E700BAEE32 /* Build configuration list for PBXNativeTarget "DSB311_A2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5177B29E2B1FA9E700BAEE32 /* Debug */,
+				5177B29F2B1FA9E700BAEE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5177B28E2B1FA9E600BAEE32 /* Project object */;
+}
